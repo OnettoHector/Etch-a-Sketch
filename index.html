@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="chunkyCode.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Kanit:wght@100;200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Tirate un sketch</h1>
+        <div id="wrappingContainer">
+        <div id="controlsContainer">
+            <div id="bigBtnBorder">
+            <button id="cleanBtn" class="bigBtn"type="button">Limpiar</button>
+        </div>
+        <p class="controlSmallText">Tamaño de cuadrícula:</p>
+        <div id="sliderContainer">
+        <input id="slider" type="range"value=16 min="1"max="100">
+        <p id="gridSizeNumber" class="controlSmallText">16 x 16</p>
+        <div id="bigBtnBorder">
+        <button id="slideBtn" class="bigBtn"type="button">Aplicar</button>
+    </div>
+    </div>
+        <p class="controlSmallText">Colores:</p>
+        <button id="babyBlueBtn" class="colorBtns" type="button"></button>
+        <button id="softOrange" class="colorBtns" type="button"></button>
+        <button id="weakGreen" class="colorBtns" type="button"></button>
+        <button id="faintRed" class="colorBtns" type="button"></button>
+        <button id="sleepyPurple" class="colorBtns" type="button"></button>
+        <button id="eraser" class="colorBtns" type="button"></button>
+        <p class="controlSmallText">Elegí el tuyo:</p>
+        <label for ="rainbowColor" id="rainbowColorLabel"></label>
+        <input type="color" id="rainbowColor">
+    </div>
+        <div id="gridContainer">
+        </div>
+    </div>
+    </body>
+</html>
